@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { Label 'Agent1' }
 
     stages {
         stage('Cloning') {
